@@ -23,7 +23,7 @@ class Mygroup(horizon.PanelGroup):
 class Mydashboard(horizon.Dashboard):
     name = _("Mydashboard")
     slug = "mydashboard"
-    panels = (Mygroup)  # Add your panels here.
+    panels = (Mygroup,)  # Add your panels here.
     default_panel = 'mypanel'  # Specify the slug of the dashboard's default panel.
 
 

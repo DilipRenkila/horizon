@@ -26,6 +26,7 @@ class InstanceTab(tabs.TableTab):
                 self.request,
                 search_opts={'marker': marker, 'paginate': True})
 
+
             return instances
         except Exception:
             self._has_more = False

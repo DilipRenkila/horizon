@@ -1,7 +1,5 @@
-{% load horizon %}
-{% jstemplate %}
 {% extends 'base.html' %}
-
+{% load horizon %}
 {% block sidebar %}
   {% include 'horizon/common/_sidebar.html' %}
 {% endblock %}
@@ -10,4 +8,3 @@
   {% include "horizon/_messages.html" %}
   {% block mydashboard_main %}{% endblock %}
 {% endblock %}
-{% endjstemplate %}
